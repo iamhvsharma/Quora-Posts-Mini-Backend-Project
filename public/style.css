@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+.nav{
+    height: 12vh;
+    width: 100%;
+    background-color:burlywood;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2vw 10vw;
+}
+
+h1{
+    color: maroon;
+    font-size: 3vw; 
+}
+
+.posts{
+    height: auto%;
+    background-color:rgb(245, 245, 178);
+    padding: 3vw 5vw;
+
+}
+
+.onepost{
+    height: auto;
+    padding: 1vw;
+    background-color:coral;
+    margin: 2vw 0;
+}
+
+.uniqueid{
+    font-style: italic;
+    margin: 1vw 5vw;
+}
+
+.user{
+    color: white;
+    font-style: italic;
+    margin: 1vw 5vw;
+}
+
+.content{
+    /* background-color:cadetblue; */
+    margin: 0 5vw 3vw 5vw;
+    width:fit-content;
+    padding: 1vw;
+    border-radius: 4px;
+    
+
+}
+
+.createPost-btn{
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 1vw;
+    border-radius: 8px;
+    cursor: pointer;
+    
+}
+
+.post-btn{
+    display: flex;
+    align-items: center;
+    
+}
+
+
+.cta-btn{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 0.5vw;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.delete-btn{
+    margin-left: 2vw;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 0.5vw;
+    border-radius: 8px;
+    cursor: pointer;
+}

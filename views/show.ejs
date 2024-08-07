@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post in Detail</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <h1>Here is your post in detail</h1>
+    <div class="posts">
+        <div class="onepost">
+            <div class="content">
+                <h4 class="uniqueid">Id: <%= post.id %></h4>
+                <h3 class="user">@<%= post.username %></h3>
+                <h4 class="content"><%= post.content %></h4>
+
+                <div class="post-btn">
+                    <form method="get" action="/posts">
+                      <a class="cta-btn" href="http://localhost:3000/posts">Back to Home</a>
+                      &nbsp; &nbsp;
+                      <a class="cta-btn" href="http://localhost:3000/posts/<%=post.id%>/edit ">Edit</a>
+                        <button class="delete-btn">Delete</button>
+                      </form>
+                    </div>
+            </div>
+        </div>
+       
+    </div>
+            
+
+    
+</body>
+</html>
